@@ -1,6 +1,15 @@
 import { Head } from "$fresh/runtime.ts";
 import HiddenRef from "../islands/HiddenRef.tsx";
 
+
+/** 
+ * This tsx file contains basically simple html elements,
+ * with the exception of the imported `HiddenRef` island element.
+ * A css stylesheet located in the /static/ folder is loaded in the head.
+ * 
+ * Once the HiddenRef has mounted in the browser, we can run any
+ * browser code we wish and have references to all the elements on this page.
+ */
 export default function Home() {
     return (
         <>
