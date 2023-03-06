@@ -19,5 +19,5 @@ Start the project:
 deno task start
 ```
 This will watch the project directory and restart as necessary.
-
+  
 Try it at https://fresh-ssr-spa.deno.dev/
