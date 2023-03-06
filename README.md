@@ -1,6 +1,12 @@
 # Simple SPA fresh project
 
-This is a very simple SPA using fresh.    
+This is a very simple Single Page App using fresh.   
+Fresh `Server-Side-Renders` the /routes/index.tsx page,    
+then runs the simple page and its code in the browser.   
+
+I use a hidden island element to expose all content in the browser   
+(see: /islands/HiddenRef.tsx)   
+   
 The UI is esentially pure html, no jsx required         (/routes/index.tsx)     
 Styling is from a plain css file in the static folder   (/static/style.css)  
 All client-side code is Typescript in the /app/ folder  (/app/dom.ts)   
