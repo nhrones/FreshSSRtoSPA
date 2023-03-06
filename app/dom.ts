@@ -7,6 +7,20 @@ export const log = (msg: string) => {
     logger.textContent += '\n' + msg
 }
 let count = 0
+
+
+/**
+ * This init function is called from the HiddenRef island.
+ * It is called only after the island has mounted in the dom.
+ * Since the island was added to the index.tsx, that tells me 
+ * that all the elements in index.tsx are mounted in the dom.
+ * 
+ * The code on this page will have been bundled by esbuild and 
+ * will now be loaded in the browser as javaacsript.  
+ * 
+ * This shows we can write Typescript client code, and let Fresh  
+ * handle the transpilation and bundling to the browser. 
+ */
 export const init = () => {
     logger = document.getElementById('logger') as HTMLPreElement;
 
