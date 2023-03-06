@@ -18,7 +18,7 @@ export default function Home() {
                 </p>
                 <button id='testbtn'>Click Me</button>
                 <button id='howbtn'>How?</button>
-                <a href='https://github.com/nhrones/FreshSPA'>See the code!</a>
+                <a href='https://github.com/nhrones/FreshSSRtoSPA'>See the code!</a>
                 <pre id='logger'></pre>
             </div>
             <div>
