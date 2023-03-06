@@ -1,0 +1,29 @@
+*{
+    font-family:'Consolas','Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin: 5px;
+    padding: 10px; 
+}
+p {
+    color:darkblue;
+}
+
+button {
+    font-size: 14px;
+ 
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #ddd;
+    padding: 14px 16px;
+    background-color: darkblue;
+  }
+pre {
+    font-size: 14px;
+    font-weight: bolder; 
+    color: yellow;
+    background-color: darkblue;
+    min-height: 250px;
+    overflow: hidden;
+    line-height: 1.5em;
+}
